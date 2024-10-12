@@ -1,10 +1,10 @@
 export TZ='Asia/Shanghai' &&
 git config --global user.email 997462392@qq.com &&
-git config --global user.name goldsubmarine &&
+git config --global user.name Nayacco &&
 
 
 # 使用已部署文件初始化目标
-git clone --depth 1 --branch=master https://github.com/goldsubmarine/goldsubmarine.github.io.git .deploy_git &&
+git clone --depth 1 --branch=master https://github.com/Nayacco/Nayacco.github.io.git .deploy_git &&
 
 # 部署
 yarn build &&

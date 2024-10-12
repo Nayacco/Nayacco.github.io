@@ -18,19 +18,19 @@ categories: 软件技术
 
 常见的监控指标如 CPU、内存和磁盘使用率等都属于这个类型。
 
-![20220703002322](https://gcore.jsdelivr.net/gh/goldsubmarine/cdn@master/blog/20220703002322.png)
+![20220703002322](https://gcore.jsdelivr.net/gh/Nayacco/cdn@master/blog/20220703002322.png)
 
 ### 计数型
 
 这种类型是随着时间增加而不会减少的数字。
 
-![20220703002450](https://gcore.jsdelivr.net/gh/goldsubmarine/cdn@master/blog/20220703002450.png)
+![20220703002450](https://gcore.jsdelivr.net/gh/Nayacco/cdn@master/blog/20220703002450.png)
 
 ### 直方图
 
 对观察点进行采样的指标类型
 
-![20220703002603](https://gcore.jsdelivr.net/gh/goldsubmarine/cdn@master/blog/20220703002603.png)
+![20220703002603](https://gcore.jsdelivr.net/gh/Nayacco/cdn@master/blog/20220703002603.png)
 
 ### 指标摘要
 
@@ -54,15 +54,15 @@ Prometheus 服务器没有内置警报工具，而是将警报从 Prometheus 服
 
 Prometheus 服务器还提供了一套内置查询语言 PromQL、一个表达式浏览器
 
-![20220703013134](https://gcore.jsdelivr.net/gh/goldsubmarine/cdn@master/blog/20220703013134.png)
+![20220703013134](https://gcore.jsdelivr.net/gh/Nayacco/cdn@master/blog/20220703013134.png)
 
 时间序列由名称和标签标识(键/值)（尽管从技术上讲，名称本身也是名为\_name\_的标签）进行分组。
 
-![20220703030605](https://gcore.jsdelivr.net/gh/goldsubmarine/cdn@master/blog/20220703030605.png)
+![20220703030605](https://gcore.jsdelivr.net/gh/Nayacco/cdn@master/blog/20220703030605.png)
 
 可以看到 Prometheus 如何将时间序列表示为符号（notation）,例如，带有标签的 total_website_visits 时间序列可能如下所示
 
-![20220703030640](https://gcore.jsdelivr.net/gh/goldsubmarine/cdn@master/blog/20220703030640.png)
+![20220703030640](https://gcore.jsdelivr.net/gh/Nayacco/cdn@master/blog/20220703030640.png)
 
 首先是时间序列名称，后面跟着一组键/值对标签。通常所有时间序列都有一个 instance 标签（标识源主机或应用程序）以及一个 job 标签（包含抓取特定时间序列的作业名称）。
 

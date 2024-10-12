@@ -8,13 +8,13 @@ const cheerio = require("cheerio");
 const md5 = require("md5");
 // 根据自己的情况进行配置
 const config = {
-  username: "GoldSubmarine", // GitHub 用户名
+  username: "Nayacco", // GitHub 用户名
   token: process.env.ACCESS_TOKEN, // GitHub Token
-  repo: "GoldSubmarine.github.io", // 存放 issues的git仓库
+  repo: "Nayacco.github.io", // 存放 issues的git仓库
   // sitemap.xml的路径，commit.js放置在根目录下，无需修改，其他情况自行处理
   sitemapUrl: path.resolve(__dirname, "./public/sitemap.xml"),
   kind: "Gitalk", // "Gitalk" or "Gitment"，
-  baseUrl: "https://goldsubmarine.github.io/"
+  baseUrl: "https://Nayacco.github.io/"
 };
 let issuesUrl = `https://api.github.com/repos/${config.username}/${config.repo}/issues`;
 

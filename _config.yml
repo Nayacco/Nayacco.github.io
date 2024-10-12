@@ -7,13 +7,13 @@ title: Submarine
 subtitle:
 description:
 keywords:
-author: GoldSubmarine
+author: Nayacco
 language:
 timezone:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: https://GoldSubmarine.github.io
+url: https://Nayacco.github.io
 root: /
 permalink: :year/:month/:day/:post_title/
 permalink_defaults:
@@ -80,7 +80,7 @@ theme: Chic
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: https://github.com/goldsubmarine/goldsubmarine.github.io.git
+  repo: https://github.com/Nayacco/Nayacco.github.io.git
   branch: master
 
 sitemap:

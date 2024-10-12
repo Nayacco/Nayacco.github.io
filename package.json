@@ -2,7 +2,7 @@
   "name": "hexo-site",
   "version": "0.0.0",
   "private": true,
-  "homepage": "https://GoldSubmarine.github.io",
+  "homepage": "https://Nayacco.github.io",
   "scripts": {
     "dev": "hexo server",
     "build": "hexo generate",

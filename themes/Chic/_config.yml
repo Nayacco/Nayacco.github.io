@@ -1,5 +1,5 @@
 # Header
-navname: GoldSubmarine's Blog
+navname: Nayacco's Blog
 
 # navigatior items
 nav:
@@ -9,15 +9,15 @@ nav:
   关于: /about
 
 # favicon
-favicon: https://gcore.jsdelivr.net/gh/goldsubmarine/cdn@master/blog/toucan.png
+favicon: https://gcore.jsdelivr.net/gh/Nayacco/cdn@master/blog/toucan.png
 # Profile
-nickname: GoldSubmarine
+nickname: Nayacco
 
 ### this variable is MarkDown form.
 # description: Lorem ipsum dolor sit amet, **consectetur adipiscing elit.** <br>Fusce eget urna vitae velit *eleifend interdum at ac* nisi.
 # description: a genuine interest in all software
 description: 你的良知在说什么？<br>你要成为你自己
-avatar: https://gcore.jsdelivr.net/gh/goldsubmarine/GoldSubmarine.github.io@master/images/avatar.png
+avatar: https://gcore.jsdelivr.net/gh/Nayacco/Nayacco.github.io@master/images/avatar.png
 
 # main menu navigation
 ## links key words should not be changed.
@@ -34,7 +34,7 @@ links:
 #  Gallary:
 #  RSS:
 #  AliPay:
-  ZhiHu: https://www.zhihu.com/people/GoldSubmarine
+  ZhiHu: https://www.zhihu.com/people/Nayacco
 #  LinkedIn:
 #  FaceBook:
 #  Twitter:
@@ -50,7 +50,7 @@ links:
 #  QQ:
   Weibo: https://weibo.com/u/5050356754
 #  WeChat:
-  Github: https://github.com/GoldSubmarine
+  Github: https://github.com/Nayacco
 
 # how links show: you have 2 choice--text or icon.
 links_text_enable: false
@@ -109,9 +109,9 @@ gitalk:
   enable: true
   ClientID: 4eeae5fd36daf5647141 #Client ID,填入上一步获取的ID
   ClientSecret: be865c2d10e4a71994120646ff80bdaef656b9be #Client Secret，填入上一步获取的ID
-  repo: GoldSubmarine.github.io #你要存放的项目名,如果博客部署在github可以放一起
-  owner: GoldSubmarine #这个项目名的拥有者（GitHub账号或组织）
-  adminUser: ['GoldSubmarine'] #管理员用户
+  repo: Nayacco.github.io #你要存放的项目名,如果博客部署在github可以放一起
+  owner: Nayacco #这个项目名的拥有者（GitHub账号或组织）
+  adminUser: ['Nayacco'] #管理员用户
   ID: location.pathname #页面ID
   labels: ['Gitalk'] #GitHub issues的标签
   perPage: 10 #每页多少个评论

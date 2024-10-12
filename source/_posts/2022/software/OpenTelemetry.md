@@ -54,7 +54,7 @@ service:
       exporters: [logging]
 ```
 
-![20220901204419](https://gcore.jsdelivr.net/gh/goldsubmarine/cdn@master/blog/20220901204419.png)
+![20220901204419](https://gcore.jsdelivr.net/gh/Nayacco/cdn@master/blog/20220901204419.png)
 
 使用命令 `./otelcol --config=collect-config.yml` 启动
 
@@ -68,7 +68,7 @@ service:
 
 ## OpenTelemetry Java instrumentation agent
 
-![20220901204516](https://gcore.jsdelivr.net/gh/goldsubmarine/cdn@master/blog/20220901204516.png)
+![20220901204516](https://gcore.jsdelivr.net/gh/Nayacco/cdn@master/blog/20220901204516.png)
 
 除了主动从 url 拉取数据，`OpenTelemetry collector`还支持应用端主动推送数据。
 
